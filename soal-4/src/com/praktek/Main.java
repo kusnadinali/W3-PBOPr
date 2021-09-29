@@ -12,7 +12,7 @@ public class Main {
 		}else if(item >= 40) {//25%
 			gaji = ((item*hargaItem)*0.25)+gajiPokok;
 		}else if(item < 15) {// -15%
-			gaji = gajiPokok - ((item*hargaItem)*0.15);
+			gaji = gajiPokok - (((15-item)*hargaItem)*0.15);
 		}else {
 			gaji = ((item*hargaItem)*0.10)+gajiPokok;
 		}
