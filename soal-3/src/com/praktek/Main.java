@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void result(int A, int B, String operator) {
-		switch((int) operator.charAt(0)) {
+		switch((int) operator.charAt(0)) {//case dibawah ini adalah nilai nilai ascii dari character operator
 			case 43:
 				System.out.println(A+B);
 				break;
