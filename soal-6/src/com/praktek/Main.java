@@ -18,5 +18,6 @@ public class Main {
 		System.out.println(jumlah);
 		System.out.println(kali);
 		//System.out.println(jumlah+kali);
+		in.close();
 	}
 }
