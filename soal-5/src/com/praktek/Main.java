@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void bukaTutupJalan(long plat) {
-		if(plat%5==0) {
+		if((plat-999999)%5==0) {
 			System.out.println("berhenti");
 		}else {
 			System.out.println("jalan");
